@@ -107,7 +107,9 @@ def slice_ips(ip_address_list):
 
 <!-- correct answer, graded as incorrect -->
 
-N / A
+```
+
+```
 
 **False Positives**:
 
@@ -186,14 +188,277 @@ def slice_ips(ip_address_list):
 
 ### Traversal
 
+**Task Description Feedback**:
+
+- make this into a hint?
+  > It is also possible to perform list traversal using iteration by item as well as iteration by index.
+
+**Solutions**:
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+    result = []
+
+    for ip in ip_address_list:
+        if "192.168" in ip:
+            result.append(ip)
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+    result = []
+
+    for ip in ip_address_list:
+        if "192.168" == ip[:7]:
+            result.append(ip)
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+    result = []
+
+    for index in range(len(ip_address_list)):
+        if "192.168" == ip_address_list[index][:7]:
+            result.append(ip_address_list[index])
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+    result = []
+
+    for index in range(0, len(ip_address_list)):
+        if "192.168" == ip_address_list[index][:7]:
+            result.append(ip_address_list[index])
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+    result = []
+
+    for index in range(len(ip_address_list)):
+        if "192.168" in ip_address_list[index]:
+            result.append(ip_address_list[index])
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+    result = []
+
+    for index in range(0, len(ip_address_list)):
+        if "192.168" in ip_address_list[index]:
+            result.append(ip_address_list[index])
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+    result = []
+
+    for index in range(len(ip_address_list) - 1, 0, -1):
+        if "192.168" in ip_address_list[index]:
+            result.append(ip_address_list[index])
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+    result = []
+
+    for index in range(len(ip_address_list) - 1, 0, -1):
+        if "192.168" == ip_address_list[index][:7]:
+            result.append(ip_address_list[index])
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+    result = []
+    index = 0
+
+    while index < len(ip_address_list):
+        if "192.168" in ip_address_list[index]:
+            result.append(ip_address_list[index])
+        index += 1
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+    result = []
+    index = 0
+
+    while index < len(ip_address_list):
+        if "192.168" == ip_address_list[index][:7]:
+            result.append(ip_address_list[index])
+        index += 1
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+    result = []
+    index = len(ip_address_list) - 1
+
+    while index >= 0:
+        if "192.168" in ip_address_list[index]:
+            result.append(ip_address_list[index])
+        index -= 1
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+    result = []
+    index = len(ip_address_list) - 1
+
+    while index >= 0:
+        if "192.168" == ip_address_list[index][:7]:
+            result.append(ip_address_list[index])
+        index -= 1
+
+    return result
+```
+
+**False Negatives**:
+
+<!-- correct answer, graded as incorrect -->
+
+```
+
+```
+
+**False Positives**:
+
+<!-- solution passes test cases but does not solve the problem -->
+
+```
+
+```
+
 ## Files
 
 ### Reading
 
+**Task Description Feedback**:
+
+- abc
+
+**Solutions**:
+
+**False Negatives**:
+
+<!-- correct answer, graded as incorrect -->
+
+```
+
+```
+
+**False Positives**:
+
+<!-- solution passes test cases but does not solve the problem -->
+
+```
+
+```
+
 ### Writing
+
+**Task Description Feedback**:
+
+- abc
+
+**Solutions**:
+
+**False Negatives**:
+
+<!-- correct answer, graded as incorrect -->
+
+```
+
+```
+
+**False Positives**:
+
+<!-- solution passes test cases but does not solve the problem -->
+
+```
+
+```
 
 ## Dictionaries
 
 ### Accessing
 
+**Task Description Feedback**:
+
+- abc
+
+**Solutions**:
+
+**False Negatives**:
+
+<!-- correct answer, graded as incorrect -->
+
+```
+
+```
+
+**False Positives**:
+
+<!-- solution passes test cases but does not solve the problem -->
+
+```
+
+```
+
 ### Creating
+
+**Task Description Feedback**:
+
+- abc
+
+**Solutions**:
+
+**False Negatives**:
+
+<!-- correct answer, graded as incorrect -->
+
+```
+
+```
+
+**False Positives**:
+
+<!-- solution passes test cases but does not solve the problem -->
+
+```
+
+```
