@@ -1,18 +1,21 @@
 # CNE330_Book_Solutions
 
-Table of Contents
+###Table of Contents
 
-####[List]()
-[Slicing]()
-[Traversal]()
+#### [List](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#lists)
 
-####[Files]()
-[Reading]()
-[Writing]()
+[Slicing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#slicing)
+[Traversal](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#traversal)
 
-####[Dictionaries]()
-[Accessing]()
-[Creating]()
+#### [Files](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#files)
+
+[Reading](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#reading)
+[Writing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#writing)
+
+#### [Dictionaries](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#dictionaries)
+
+[Accessing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#accessing)
+[Creating](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#creating)
 
 ## Lists
 
