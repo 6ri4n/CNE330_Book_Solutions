@@ -1,6 +1,6 @@
 # CNE330_Book_Solutions
 
-#### Table of Contents
+### Table of Contents
 
 ### [List](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#lists)
 
@@ -22,7 +22,7 @@
 
 ### Slicing
 
-**Feedback on task descriptions**:
+**Task Description Feedback**:
 
 - not clear on length of the list of ip addresses, is it fixed at a length of 4? (I assume it's fixed)
 - could be simpler / clearer
