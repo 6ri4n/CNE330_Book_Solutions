@@ -1,25 +1,26 @@
 # CNE330_Book_Solutions
 
-###Table of Contents
+#### Table of Contents
 
 #### [List](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#lists)
 
-[Slicing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#slicing)
-[Traversal](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#traversal)
+- [Slicing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#slicing)
+
+- [Traversal](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#traversal)
 
 #### [Files](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#files)
 
-[Reading](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#reading)
-[Writing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#writing)
+- [Reading](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#reading)
+- [Writing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#writing)
 
 #### [Dictionaries](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#dictionaries)
 
-[Accessing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#accessing)
-[Creating](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#creating)
+- [Accessing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#accessing)
+- [Creating](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#creating)
 
 ## Lists
 
-#### Slicing
+### Slicing
 
 **Feedback on task descriptions**:
 
@@ -183,16 +184,16 @@ def slice_ips(ip_address_list):
     return ip_address_list[1:3]
 ```
 
-#### Traversal
+### Traversal
 
 ## Files
 
-#### Reading
+### Reading
 
-#### Writing
+### Writing
 
 ## Dictionaries
 
-#### Accessing
+### Accessing
 
-#### Creating
+### Creating
