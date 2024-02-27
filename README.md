@@ -13,21 +13,23 @@ Supported Python Versions:
 
 ## Table of Contents
 
-### [List](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#lists)
+### [List](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#lists)
 
-- [Slicing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#slicing)
+- [Slicing](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#slicing)
 
-- [Traversal](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#traversal)
+- [Traversal](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#traversal)
 
-### [Files](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#files)
+### [Files](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#files-1)
 
-- [Reading](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#reading)
-- [Writing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#writing)
+- [Reading](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#reading)
 
-### [Dictionaries](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#dictionaries)
+- [Writing](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#writing)
 
-- [Accessing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#accessing)
-- [Creating](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#creating)
+### [Dictionaries](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#dictionaries-1)
+
+- [Accessing](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#accessing)
+
+- [Creating](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#creating)
 
 <hr>
 
@@ -199,7 +201,7 @@ def slice_ips(ip_address_list):
     return ip_address_list[1:3]
 ```
 
-[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#table-of-contents)
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
 
 ### Traversal
 
@@ -378,7 +380,7 @@ def return_all_192_168 (ip_address_list):
 
 ```
 
-[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#table-of-contents)
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
 
 <hr>
 
@@ -530,7 +532,7 @@ def read_file_first_line(filename):
     return first_line
 ```
 
-[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#table-of-contents)
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
 
 ### Writing
 
@@ -582,7 +584,7 @@ def write_line_to_file(filename):
 
 ```
 
-[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#table-of-contents)
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
 
 <hr>
 
@@ -697,7 +699,7 @@ def dns_resolve(hostname):
         return None
 ```
 
-[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#table-of-contents)
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
 
 ### Creating
 
@@ -759,4 +761,4 @@ def create_network_dns():
 
 ```
 
-[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#table-of-contents)
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
