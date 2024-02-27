@@ -369,9 +369,114 @@ def return_all_192_168 (ip_address_list):
 
 **Task Description Feedback**:
 
-- abc
+- not clear on how many lines are in the file (I assume that it'll always only have 1 line)
+- could be simpler / clearer
+  > To open this file, we would call the open function. The variable, fileref, now holds a reference to the file object returned by open. When we are finished with the file, we can close it by using the close method. After the file is closed any further attempts to use fileref will result in an error.
+  - could rephrase to something like "To open this file, we would call the open function which returns a file object that has a read and close method. It is good practice to always close the file when you are done with it by using the close method. After the file is closed any further attempts to use the file object will result in an error."
 
 **Solutions**:
+
+```python
+def read_file_first_line(filename):
+    file_obj = open(filename, "r")
+    first_line = file_obj.readline()
+    file_obj.close()
+    return first_line
+```
+
+```python
+def read_file_first_line(filename):
+    file_obj = open(filename, "r")
+    first_line = ""
+
+    for line in file_obj:
+        first_line = line
+        break
+
+    file_obj.close()
+
+    return first_line
+```
+
+```python
+def read_file_first_line(filename):
+    file_obj = open(filename, "r")
+
+    for line in file_obj:
+        return line
+```
+
+```python
+def read_file_first_line(filename):
+    first_line = open(filename, "r").readline()
+    return first_line
+```
+
+```python
+def read_file_first_line(filename):
+    return open(filename, "r").readline()
+```
+
+```python
+def read_file_first_line(filename):
+    file_obj = open(filename, "r")
+    first_line = file_obj.read()
+    file_obj.close()
+    return first_line
+```
+
+```python
+def read_file_first_line(filename):
+    first_line = open(filename, "r").read()
+    return first_line
+```
+
+```python
+def read_file_first_line(filename):
+    return open(filename, "r").read()
+```
+
+```python
+def read_file_first_line(filename):
+    first_line = open(filename, "r").readlines()[0]
+    return first_line
+```
+
+```python
+def read_file_first_line(filename):
+    return open(filename, "r").readlines()[0]
+```
+
+```python
+def read_file_first_line(filename):
+    file_obj = open(filename, "r")
+    first_line = file_obj.readlines()[0]
+    file_obj.close()
+    return first_line
+```
+
+```python
+def read_file_first_line(filename):
+    lines = open(filename, "r").readlines()
+
+    for line in lines:
+        return line
+```
+
+```python
+def read_file_first_line(filename):
+    file_obj = open(filename, "r")
+    lines = file_obj.readlines()
+    first_line = ""
+
+    for line in lines:
+        first_line = line
+        break
+
+    file_obj.close()
+
+    return first_line
+```
 
 **False Negatives**:
 
@@ -385,17 +490,60 @@ def return_all_192_168 (ip_address_list):
 
 <!-- solution passes test cases but does not solve the problem -->
 
+```python
+def read_file_first_line(filename):
+    """
+    does not read a file
+    """
+    return """
+    83.149.9.216 - - [17/May/2015:10:05:03 +0000] "GET /presentations/logstash-monitorama-2013/images/kibana-search.png HTTP/1.1" 200 203023 "http://semicomplete.com/presentations/logstash-monitorama-2013/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.77 Safari/537.36"
+    """
 ```
 
+```python
+def read_file_first_line(filename):
+    """
+    does not read a file
+    """
+    first_line = """
+    83.149.9.216 - - [17/May/2015:10:05:03 +0000] "GET /presentations/logstash-monitorama-2013/images/kibana-search.png HTTP/1.1" 200 203023 "http://semicomplete.com/presentations/logstash-monitorama-2013/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.77 Safari/537.36"
+    """
+    return first_line
 ```
 
 ### Writing
 
 **Task Description Feedback**:
 
-- abc
+- missing a task description
+  - should clarify on what counts as writing to a file, does overwriting the lines in the file count? does appending a new line in the file count?
+- unable to execute any unit test - "No tests were found"
 
 **Solutions**:
+
+```python
+def write_line_to_file(filename):
+    file_obj = open(filename, "w")
+    file_obj.write("text")
+    file_obj.close()
+```
+
+```python
+def write_line_to_file(filename):
+    open(filename, "w").write("a")
+```
+
+```python
+def write_line_to_file(filename):
+    file_obj = open(filename, "a")
+    file_obj.write("\ntext")
+    file_obj.close()
+```
+
+```python
+def write_line_to_file(filename):
+    open(filename, "a").write("\ntext")
+```
 
 **False Negatives**:
 
@@ -419,9 +567,81 @@ def return_all_192_168 (ip_address_list):
 
 **Task Description Feedback**:
 
-- abc
+- task description says to create an entry with the key "Router" when the unit test is looking for "Gateway"
 
 **Solutions**:
+
+```python
+def dns_resolve(hostname):
+    # todo: replace this with an actual task
+    dictionary = {
+        "Linux": "192.168.1.101",
+        "Windows": "192.168.1.102",
+        "Gateway": "192.168.1.1"
+    }
+
+    return dictionary.get(hostname, None)
+```
+
+```python
+def dns_resolve(hostname):
+    # todo: replace this with an actual task
+    dictionary = {
+        "Linux": "192.168.1.101",
+        "Windows": "192.168.1.102",
+        "Gateway": "192.168.1.1"
+    }
+
+    if hostname in dictionary:
+        return dictionary.get(hostname)
+
+    return None
+```
+
+```python
+def dns_resolve(hostname):
+    # todo: replace this with an actual task
+    dictionary = {
+        "Linux": "192.168.1.101",
+        "Windows": "192.168.1.102",
+        "Gateway": "192.168.1.1"
+    }
+
+    if hostname in dictionary:
+        return dictionary[hostname]
+
+    return None
+```
+
+```python
+def dns_resolve(hostname):
+    # todo: replace this with an actual task
+    dictionary = {
+        "Linux": "192.168.1.101",
+        "Windows": "192.168.1.102",
+        "Gateway": "192.168.1.1"
+    }
+
+    if hostname not in dictionary:
+        return None
+
+    return dictionary[hostname]
+```
+
+```python
+def dns_resolve(hostname):
+    # todo: replace this with an actual task
+    dictionary = {
+        "Linux": "192.168.1.101",
+        "Windows": "192.168.1.102",
+        "Gateway": "192.168.1.1"
+    }
+
+    if hostname not in dictionary:
+        return None
+
+    return dictionary.get(hostname)
+```
 
 **False Negatives**:
 
@@ -435,17 +655,66 @@ def return_all_192_168 (ip_address_list):
 
 <!-- solution passes test cases but does not solve the problem -->
 
-```
+```python
+def dns_resolve(hostname):
+    # todo: replace this with an actual task
 
+    """
+    does not use a dictionary
+    """
+    if hostname == "Linux":
+        return "192.168.1.101"
+    elif hostname == "Windows":
+        return "192.168.1.102"
+    elif hostname == "Gateway":
+        return "192.168.1.1"
+    else:
+        return None
 ```
 
 ### Creating
 
 **Task Description Feedback**:
 
-- abc
+- task description says to create an entry with the key "Router" when the unit test is looking for "Gateway"
 
 **Solutions**:
+
+```python
+def create_network_dns():
+    # todo: replace this with an actual task
+    dictionary = {
+        "Linux": "192.168.1.101",
+        "Windows": "192.168.1.102",
+        "Gateway": "192.168.1.1"
+    }
+
+    return dictionary
+```
+
+```python
+def create_network_dns():
+    # todo: replace this with an actual task
+    return {
+        "Linux": "192.168.1.101",
+        "Windows": "192.168.1.102",
+        "Gateway": "192.168.1.1"
+    }
+```
+
+```python
+def create_network_dns():
+    # todo: replace this with an actual task
+    return dict([("Linux", "192.168.1.101"), ("Windows", "192.168.1.102"), ("Gateway", "192.168.1.1")])
+```
+
+```python
+def create_network_dns():
+    # todo: replace this with an actual task
+    dictionary = dict([("Linux", "192.168.1.101"), ("Windows", "192.168.1.102"), ("Gateway", "192.168.1.1")])
+
+    return dictionary
+```
 
 **False Negatives**:
 
