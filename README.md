@@ -2,6 +2,13 @@
 
 A solution manual for RTC's Python 1 course (CNE330). Providing feedback and conducting smoke testing to improve the user experience and stability of the course materials.
 
+Supported Python Versions:
+
+- [x] Python 3.9
+- [ ] Python 3.10
+- [ ] Python 3.11
+- [ ] Python 3.12
+
 <hr>
 
 ## Table of Contents
@@ -21,15 +28,6 @@ A solution manual for RTC's Python 1 course (CNE330). Providing feedback and con
 
 - [Accessing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#accessing)
 - [Creating](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#creating)
-
-<hr>
-
-#### Supported Python Versions
-
-- [x] Python 3.9
-- [ ] Python 10
-- [ ] Python 11
-- [ ] Python 12
 
 <hr>
 
