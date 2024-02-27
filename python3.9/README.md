@@ -1,5 +1,7 @@
 # CNE330_Book_Solutions
 
+<hr>
+
 ### Table of Contents
 
 ### [List](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#lists)
@@ -17,6 +19,8 @@
 
 - [Accessing](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#accessing)
 - [Creating](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#creating)
+
+<hr>
 
 ## Lists
 
@@ -185,6 +189,8 @@ def slice_ips(ip_address_list):
 
     return ip_address_list[1:3]
 ```
+
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#table-of-contents)
 
 ### Traversal
 
@@ -363,6 +369,10 @@ def return_all_192_168 (ip_address_list):
 
 ```
 
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#table-of-contents)
+
+<hr>
+
 ## Files
 
 ### Reading
@@ -511,6 +521,8 @@ def read_file_first_line(filename):
     return first_line
 ```
 
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#table-of-contents)
+
 ### Writing
 
 **Task Description Feedback**:
@@ -560,6 +572,10 @@ def write_line_to_file(filename):
 ```
 
 ```
+
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#table-of-contents)
+
+<hr>
 
 ## Dictionaries
 
@@ -672,6 +688,8 @@ def dns_resolve(hostname):
         return None
 ```
 
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#table-of-contents)
+
 ### Creating
 
 **Task Description Feedback**:
@@ -731,3 +749,5 @@ def create_network_dns():
 ```
 
 ```
+
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Book_Solutions/blob/main/python3.9/README.md#table-of-contents)
