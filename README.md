@@ -5,9 +5,9 @@ A solution manual for RTC's Python 1 course (CNE330). Providing feedback and con
 Supported Python Versions:
 
 - [x] Python 3.9
-- [ ] Python 3.10
-- [ ] Python 3.11
-- [ ] Python 3.12
+- [x] Python 3.10
+- [x] Python 3.11
+- [x] Python 3.12
 
 <hr>
 
@@ -289,7 +289,7 @@ def return_all_192_168 (ip_address_list):
     # TODO - Write your code here. Make sure to edit the return line
     result = []
 
-    for index in range(len(ip_address_list) - 1, 0, -1):
+    for index in range(len(ip_address_list) - 1, -1, -1):
         if "192.168" in ip_address_list[index]:
             result.append(ip_address_list[index])
 
@@ -301,7 +301,7 @@ def return_all_192_168 (ip_address_list):
     # TODO - Write your code here. Make sure to edit the return line
     result = []
 
-    for index in range(len(ip_address_list) - 1, 0, -1):
+    for index in range(len(ip_address_list) - 1, -1, -1):
         if "192.168" == ip_address_list[index][:7]:
             result.append(ip_address_list[index])
 
@@ -376,8 +376,84 @@ def return_all_192_168 (ip_address_list):
 
 <!-- solution passes test cases but does not solve the problem -->
 
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+
+    """
+    any solution that starts iterating starting from the end and does not check the first element
+    can pass the unit tests through luck (randomness) due to the last test case
+    if the last test case does not generate an ip with 192.168 as its first element then the solution will pass
+    which does not solve the problem because the problem wants "all ips" meaning iterating through every element
+    """
+    result = []
+
+    for index in range(len(ip_address_list) - 1, 0, -1):
+        if "192.168" in ip_address_list[index]:
+            result.append(ip_address_list[index])
+
+    return result
 ```
 
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+
+    """
+    any solution that starts iterating starting from the end and does not check the first element
+    can pass the unit tests through luck (randomness) due to the last test case
+    if the last test case does not generate an ip with 192.168 as its first element then the solution will pass
+    which does not solve the problem because the problem wants "all ips" meaning iterating through every element
+    """
+    result = []
+
+    for index in range(len(ip_address_list) - 1, 0, -1):
+        if "192.168" == ip_address_list[index][:7]:
+            result.append(ip_address_list[index])
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+
+    """
+    any solution that starts iterating starting from the end and does not check the first element
+    can pass the unit tests through luck (randomness) due to the last test case
+    if the last test case does not generate an ip with 192.168 as its first element then the solution will pass
+    which does not solve the problem because the problem wants "all ips" meaning iterating through every element
+    """
+    result = []
+    index = len(ip_address_list) - 1
+
+    while index > 0:
+        if "192.168" in ip_address_list[index]:
+            result.append(ip_address_list[index])
+        index -= 1
+
+    return result
+```
+
+```python
+def return_all_192_168 (ip_address_list):
+    # TODO - Write your code here. Make sure to edit the return line
+
+    """
+    any solution that starts iterating starting from the end and does not check the first element
+    can pass the unit tests through luck (randomness) due to the last test case
+    if the last test case does not generate an ip with 192.168 as its first element then the solution will pass
+    which does not solve the problem because the problem wants "all ips" meaning iterating through every element
+    """
+    result = []
+    index = len(ip_address_list) - 1
+
+    while index > 0:
+        if "192.168" == ip_address_list[index][:7]:
+            result.append(ip_address_list[index])
+        index -= 1
+
+    return result
 ```
 
 [⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
