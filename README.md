@@ -2,18 +2,31 @@
 
 A solution manual for RTC's Python 1 course (CNE330). Providing feedback and conducting smoke testing to improve the user experience and stability of the course materials.
 
-Supported Python Versions:
-
-- [x] Python 3.9
-- [x] Python 3.10
-- [x] Python 3.11
-- [x] Python 3.12
+Supported Python Versions: Python 3.9, Python 3.10, Python 3.11, Python 3.12
 
 <hr>
 
 ## Table of Contents
 
+### [Unit Testing]()
+
+- [LinuxWindowsMac]()
+
+### [Strings]()
+
+- [Comparison]()
+
+- [Concatenation]()
+
+- [Length]()
+
+- [Slicing]()
+
 ### [List](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#lists)
+
+- [Accessing]()
+
+- [Cloning]()
 
 - [Slicing](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#slicing)
 
@@ -33,7 +46,225 @@ Supported Python Versions:
 
 <hr>
 
+## Unit Testing
+
+### LinuxWindowsMac
+
+**Task Description Feedback**:
+
+- ?
+
+**Solutions**:
+
+```python
+
+```
+
+**False Negatives**:
+
+<!-- correct answer, graded as incorrect -->
+
+```
+
+```
+
+**False Positives**:
+
+<!-- solution passes test cases but does not solve the problem -->
+
+```
+
+```
+
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
+
+<hr>
+
+## Strings
+
+### Comparison
+
+**Task Description Feedback**:
+
+- ?
+
+**Solutions**:
+
+```python
+
+```
+
+**False Negatives**:
+
+<!-- correct answer, graded as incorrect -->
+
+```
+
+```
+
+**False Positives**:
+
+<!-- solution passes test cases but does not solve the problem -->
+
+```
+
+```
+
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
+
+### Concatenation
+
+**Task Description Feedback**:
+
+- ?
+
+**Solutions**:
+
+```python
+
+```
+
+**False Negatives**:
+
+<!-- correct answer, graded as incorrect -->
+
+```
+
+```
+
+**False Positives**:
+
+<!-- solution passes test cases but does not solve the problem -->
+
+```
+
+```
+
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
+
+### Length
+
+**Task Description Feedback**:
+
+- ?
+
+**Solutions**:
+
+```python
+
+```
+
+**False Negatives**:
+
+<!-- correct answer, graded as incorrect -->
+
+```
+
+```
+
+**False Positives**:
+
+<!-- solution passes test cases but does not solve the problem -->
+
+```
+
+```
+
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
+
+### Slicing
+
+**Task Description Feedback**:
+
+- ?
+
+**Solutions**:
+
+```python
+
+```
+
+**False Negatives**:
+
+<!-- correct answer, graded as incorrect -->
+
+```
+
+```
+
+**False Positives**:
+
+<!-- solution passes test cases but does not solve the problem -->
+
+```
+
+```
+
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
+
+<hr>
+
 ## Lists
+
+### Accessing
+
+**Task Description Feedback**:
+
+- ?
+
+**Solutions**:
+
+```python
+
+```
+
+**False Negatives**:
+
+<!-- correct answer, graded as incorrect -->
+
+```
+
+```
+
+**False Positives**:
+
+<!-- solution passes test cases but does not solve the problem -->
+
+```
+
+```
+
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
+
+### Cloning
+
+**Task Description Feedback**:
+
+- ?
+
+**Solutions**:
+
+```python
+
+```
+
+**False Negatives**:
+
+<!-- correct answer, graded as incorrect -->
+
+```
+
+```
+
+**False Positives**:
+
+<!-- solution passes test cases but does not solve the problem -->
+
+```
+
+```
+
+[⬆️ back to table of contents](https://github.com/6ri4n/CNE330_Smoke_Testing?tab=readme-ov-file#table-of-contents)
 
 ### Slicing
 
